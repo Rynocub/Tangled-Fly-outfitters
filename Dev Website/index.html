@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link href="img" rel="images" />
+    <meta charset="UTF-8" />
+    <title>Lincs Lawn Care LLC</title>
+  </head>
+  <header>
+    <a class="logo" href="/"><img src="imgs/Tangled fly (3).png" height="60" width="120"alt="logo"></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a href="#Services">Guides</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#About-us">About us</a></li>
+        </ul>
+    </nav>
+    <a class="cta" href="#Contact-us">Contact</a>
+    <p class="menu cta">Menu</p>
+</header>
+</div>
+  <body>
+    <div id="text-overlay">
+      <p id="first-overlay">Tangled Fly</p>
+      <p>Guide and fishing</p>
+    </div>
+    <div class="container">
+      <div class="parallax"></div>
+    </div>
+
+    <article>
+      <div class="About" id="About-us">
+      <h2>About us</h2>
+      <p class="About-us">
+        Have lived and fished rivers since 2005.We beleive in catching fish and having a good time tangled fly is all about the experience and enjoyment of being out on the river
+        We also know that there are to many people that live in this valley and visit the mountains that havent caught a trout this is a main staple in these mountains so we are here to help
+        with guid trips you can check out by clicking the hot link above
+         </p>
+      </div>
+      <h3 id="Gallery">Gallery</h3>
+      <div class="body">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+
+          <div class="slide first">
+            <img src="imgs/IMG_0220.JPG" alt="river">
+          </div>
+          <div class="slide">
+            <img src="imgs/IMG_0221.JPG" alt="river">
+          </div>
+          <div class="slide">
+            <img src="imgs/IMG_0222.JPG" alt="river">
+          </div>
+          <div class="slide">
+            <img src="imgs/IMG_0224.JPG" alt="river">
+          </div>
+
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="app.js">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+      <div class="Gallery-Photos">
+      </div>
+    </article>
+
+      <section class="container">
+          <div class="card">
+            <div class="card-image car-1"></div>
+            <h6>Day Trip</h6>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicitae repella</p>
+            <a href="">Meet Guide</a>
+          </div>
+          <div class="card">
+            <div class="card-image car-2"></div>
+            <h6>Half-Day Trip</h6>
+            <p>Lorem ipsum dolor  architecto minima natus .</p>
+            <a href="">Meet Guide</a>
+          </div>
+      </section>
+
+
+<div class="Contact">
+  <h5 id="Contact-us">Contact us</h5>
+ <ul>
+   <li>828-772-6433</li>
+ </ul>
+</div>
+
+  </body>
+</html>
+
