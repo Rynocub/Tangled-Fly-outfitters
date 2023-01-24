@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link href="img" rel="images" />
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>Tangled Fly outfitters</title>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="./app.js" type="text/javascript"></script>
+  </head>
+  <header>
+    <a class="logo" href="/">
+      <img
+        src="imgs/Tangled fly Outfitters-1 (1).png"
+        height="100"
+        width="120"
+        alt="logo"
+      />
+  </a>
+    <nav class="nav-bar">
+      <div class="brand-title">Tangled Fly</div>
+      <div class="Responsive-nav">
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+    </div>
+      <ul class="nav__links">
+        <li><a href="#Guide">Guides</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#About-us">About us</a></li>
+        <li><a href="https://tangledflyoutfitters.myshopify.com/">Store</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="#Contact-us">Contact</a>
+    <p class="menu cta">Menu</p>
+  </header>
+  <body>
+    <div id="text-overlay">
+      <p id="first-overlay">Tangled Fly</p>
+      <p>Outfitters</p>
+      <div class="second-overlay"> 
+        <a class="second-overlay" href="#Guide">Guide Trips</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="parallax"></div>
+    </div>
+
+    <article>
+      <div class="About" id="About-us">
+        <h2>About us</h2>
+        <p class="About-us">
+          We are Asheville locals with pro fishing experience. We have grown to
+          love the art of fly fishing and would love to share our expertise and
+          passion with all of our clients. Tangled fly is all about the
+          experience and enjoyment of being out on the river. So hey give us a
+          call and book a trip, Tight Lines!
+        </p>
+      </div>
+
+      <!-- <input type="checkbox" class="input"/> -->
+
+      <h3 id="Gallery">Gallery</h3>
+      <!-- <div class="body">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+
+          <div class="slide first">
+            <img src="imgs/IMG_0220.JPG" alt="river">
+          </div>
+          <div class="slide">
+            <img src="imgs/IMG_0221.JPG" alt="river">
+          </div>
+          <div class="slide">
+            <img src="imgs/IMG_0222.JPG" alt="river">
+          </div>
+          <div class="slide">
+            <img src="imgs/IMG_0224.JPG" alt="river">
+          </div> -->
+      <div class="body">
+        <div class="options">
+          <div
+            class="option active"
+            style="
+              --optionBackground: url(imgs/optionBackground/BA6A6916.jpg);
+            "
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="imgs/optionBackground/trout.png"height="50px" width="50px"/>
+              </div>
+              <div class="info">
+                <div class="main">Flys</div>
+                <div class="sub">Not tangled yet</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="option"
+            style="
+              --optionBackground: url(imgs/optionBackground/BA6A6954.jpg);
+            "
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="imgs/optionBackground/trout.png"height="50px" width="50px"/>
+              </div>
+              <div class="info">
+                <div class="main">Brook Trout</div>
+                <div class="sub">Salvelinus fontinalis</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="option"
+            style="
+              --optionBackground: url(imgs/optionBackground/BA6A6992.jpg);
+            "
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="imgs/optionBackground/trout.png"height="50px" width="50px"/>
+              </div>
+              <div class="info">
+                <div class="main">Rainbow Trout</div>
+                <div class="sub">Oncorhynchus mykiss</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="option"
+            style="
+              --optionBackground: url(imgs/optionBackground/BA6A6986.jpg);
+            "
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="imgs/optionBackground/trout.png"height="50px" width="50px"/>
+              </div>
+              <div class="info">
+                <div class="main">Delayed Harvest</div>
+                <div class="sub">handle with care</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="option"
+            style="
+              --optionBackground: url(imgs/optionBackground/BA6A6888.jpg);
+            "
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="imgs/optionBackground/trout.png"height="50px" width="50px"/>
+              </div>
+              <div class="info">
+                <div class="main">Moments before</div>
+                <div class="sub">Tight Lines!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <script src="app.js">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+    </script> -->
+      <div class="Gallery-Photos"></div>
+    </article>
+    <div id="Guide" class="container1">
+      <div class="card1">
+        <div class="back">
+          <h1>About Me</h1>
+          <p>
+            Will is one of our main guides and has experience fishing In
+            Alaska, Wyoming, Montana and the Cayman Islands. He loves to fish
+            hard but is all about his clients having fun on the water. Give
+            him a call or email him at <br />willij406@gmail.com
+            Call(828-545-0627)
+          </p>
+        </div>
+        <div class="front">
+          <div class="profile-box">
+            <img
+              src="imgs/IMG_0227.JPG"
+              alt="Will with fish"
+              class="profile-pic"
+            />
+            <!-- <h7 class="profile-box">Will Johnson</h7> -->
+            <p>Will Johnson <br />Guide for Tangled Fly outfitters</p>
+            <div class="social-media">
+              <img
+                src="imgs/-51609193448mids70tdmp (1).png"
+                href="https://www.instagram.com/will.j406/"
+              />
+            </div>
+            <button></button>
+            <div class="profile-bottom">
+              <p>Check out the day Trip and half day Trip</p>
+              <span><a href="#Trips" class="icons">&#8595;</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <section class="container">
+      <div class="card">
+        <div class="card-image car-1"></div>
+        <h6 id="Trips">Full-Day Trip $250</h6>
+        <p>
+          Drinks(included)<br/>
+          Lunch (included)<br/>
+          Equipment provided<br/>
+          (Bring your own waders)<br/>
+          Local Transport (included)
+        </p>
+        <a href="#Guide">Meet Guide</a>
+      </div>
+      <div class="card">
+        <div class="card-image car-2"></div>
+        <h6 id="Trips">Half-Day Trip $150</h6>
+        <p>
+          Drinks(included)<br/>
+          No lunch<br/>
+          Equipment provided<br/>
+          (Bring your own waders)<br/>
+          Local Transport (included)
+        </p>
+        <a href="#Guide">Meet Guide</a>
+      </div>
+    </section>
+
+    <div class="Contact">
+      <h5 id="Contact-us">Contact us</h5>
+      <ul>
+        <li>828-772-6433</li>
+      </ul>
+    </div>
+    <!-- <section>
+  <div class="Shop">
+  <h7>Shop</h7>
+</div>
+<div  class="Shop-display-card">
+<div class="container2">
+  <div class="imgBX">
+    <img src="imgs/Screenshot 2022-12-08 205532.png" height="600" width="600">
+  </div>
+</div>
+<div class="details">
+  <div class="content">
+    <div class="h9">Tangled Fly black hoodie<br><span class="Collection">Diffrent Collection</span></div>
+    <p>
+      From Fishing to looking good throw on are slick black and white designed
+       hoodie made to keep you warm and look good no matter where.Will become your favorite hoodie in matter of days
+       also a great gift.
+    </p>
+    <h9>$60</h9>
+    <button>Buy Now</button>
+  </div>
+</div>
+</div>
+</section> -->
+  </body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link href="img" rel="images" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <title>Tangled Fly outfitters</title>
+  </head>
+  <header>
+    <a class="logo" href="/"><img src="imgs/Tangled fly Outfitters-1 (1).png" height="100" width="120"alt="logo"></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a href="#Guide">Guides</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#About-us">About us</a></li>
+        </ul>
+    </nav>
+    <a class="cta" href="#Contact-us">Contact</a>
+    <p class="menu cta">Menu</p>
+</header>
+</div>
+  <body>
+    <div id="text-overlay">
+      <p id="first-overlay">Tangled Fly</p>
+      <p>outfitters</p>
+    </div>
+    <div class="container">
+      <div class="parallax"></div>
+    </div>
+
+    <article>
+      <div class="About" id="About-us">
+      <h2>About us</h2>
+      <p class="About-us">
+        We are Asheville locals with pro fishing experience. We have grown to love the art of fly fishing and would love to share our expertise and passion with all of our clients. Tangled fly is all about the experience and enjoyment of being out on the river. So hey give us a call and book a trip, Tight Lines!
+         </p>
+      </div>
+
+      <!-- <input type="checkbox" class="input"/> -->
+      <div id="Guide"class="container1">
+        <div class="card1">
+          <div class="back">
+            <h1>About Me</h1>
+            <p>Will is one of our main guides and has experience fishing
+               In Alaska, Wyoming, Montana and the Cayman Islands.
+               He loves to fish hard but is all about his clients having fun on the water.
+                Give him a call or email him at <br>willij406@gmail.com Call(828-545-0627)</p>
+          </div>
+        <div class="front">
+        <div class="profile-box">
+          <img src="imgs/IMG_0227.JPG" alt="Will with fish" class="profile-pic">
+          <!-- <h7 class="profile-box">Will Johnson</h7> -->
+          <p>Will Johnson <br>Guide for Tangled Fly outfitters</p>
+          <div class="social-media">
+            <img src="imgs/-51609193448mids70tdmp (1).png" href="https://www.instagram.com/will.j406/">
+          </div>
+         <button></button>
+          <div class="profile-bottom">
+            <p>Check out the day Trip and half day Trip</p>
+            <span><a href="#Trips" class="icons">&#8595;</a></span>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+      <h3 id="Gallery">Gallery</h3>
+      <div class="body">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+
+          <div class="slide first">
+            <img src="imgs/IMG_0220.JPG" alt="river">
+          </div>
+          <div class="slide">
+            <img src="imgs/IMG_0221.JPG" alt="river">
+          </div>
+          <div class="slide">
+            <img src="imgs/IMG_0222.JPG" alt="river">
+          </div>
+          <div class="slide">
+            <img src="imgs/IMG_0224.JPG" alt="river">
+          </div>
+
+          <!-- <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div> -->
+
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="app.js">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+      <div class="Gallery-Photos">
+      </div>
+    </article>
+
+      <section class="container">
+          <div class="card">
+            <div class="card-image car-1"></div>
+            <h6 id="Trips">Full-Day Trip
+            $350</h6>
+            <p>Drinks(included)<br>
+              Lunch (included)<br>
+              Equipment provided<br>
+              (Bring your own waders)<br>
+              Local Transport (included)
+            </p>
+            <a href="#Guide">Meet Guide</a>
+          </div>
+          <div class="card">
+            <div class="card-image car-2"></div>
+            <h6 id="Trips">Half-Day Trip
+            $199</h6>
+            <p>Drinks(included)<br>
+              No lunch<br>
+              Equipment provided<br>
+              (Bring your own waders)<br>
+              Local Transport (included)
+            </p>
+            <a href="#Guide">Meet Guide</a>
+          </div>
+      </section>
+
+
+<div class="Contact">
+  <h5 id="Contact-us">Contact us</h5>
+ <ul>
+   <li>828-772-6433</li>
+ </ul>
+</div>
+
+  </body>
+</html>
+
